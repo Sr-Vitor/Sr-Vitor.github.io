@@ -86,7 +86,16 @@ img{
     
 }
 
-@media (max-width: 900px) and (min-width: 400px){
+@media (max-width: 900px){
+    body{display: flex;
+         justify-content: center;
+         align-items: center;
+         width: auto;
+         height: auto;        
+    }
+}
+
+@media (min-width: 400px){
     body{display: flex;
          justify-content: center;
          align-items: center;
